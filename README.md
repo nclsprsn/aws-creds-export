@@ -1,5 +1,7 @@
 # aws-creds-export
 
+[![Build Status](https://travis-ci.com/nclsprsn/aws-creds-export.svg?branch=master)](https://travis-ci.com/nclsprsn/aws-creds-export)
+
 Automates the process of obtaining temporary credentials from the AWS Security Token Service and export the AWS API keys.
 
 ## Requirements
