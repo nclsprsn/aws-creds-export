@@ -35,7 +35,9 @@ fi
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 AWS_SESSION_TOKEN=
-AWS_DEFAULT_REGION=
+AWS_DEFAULT_REGION="us-east-1"
+
+export AWS_DEFAULT_REGION
 
 if ! aws-mfa --profile "$PROFILE"; then
   echo "Invalid authentication. Please try again."
